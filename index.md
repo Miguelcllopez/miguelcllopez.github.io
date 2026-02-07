@@ -8,7 +8,8 @@ title: Portafolio Técnico
 Estudiante de **Ingeniería Aeroespacial** enfocado en la aplicación de métodos numéricos y diseño riguroso para la resolución de problemas complejos. Mi objetivo es desarrollar sistemas eficientes integrando principios de **aerodinámica**, **mecánica de vuelo** y **propulsión**.
 
 Me caracterizo por un enfoque sistemático en la ingeniería, priorizando la validación de resultados y la optimización de recursos mediante herramientas computacionales avanzadas.
-
+### Ecuación de Sustentación
+$$L = \frac{1}{2} \rho v^2 S C_L$$
 ---
 
 ## Competencias Técnicas
