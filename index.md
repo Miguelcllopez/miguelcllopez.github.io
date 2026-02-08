@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Miguel López | Aerospace Software Engineer
+title: ""
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -28,9 +28,9 @@ title: Miguel López | Aerospace Software Engineer
 
 ## 🚀 About Me
 
-I am an **Aerospace Engineer** specializing in the intersection of **Systems Engineering (MBSE)** and **Critical Software Development**. My goal is to optimize the lifecycle of space systems using rigorous methodologies and modern programming languages.
+I am an **Aerospace Engineer** specializing in the intersection of **Systems Engineering (MBSE)** and **Critical Flight Software**. My goal is to optimize the lifecycle of space systems using rigorous methodologies and modern programming languages.
 
-currently balancing two master's programs in **Space Operations** and **Space Systems**, I combine theoretical knowledge of orbital mechanics with practical implementation in **C++, Rust, and Python**.
+Currently balancing two master's programs in **Space Operations** and **Space Systems**, I combine theoretical knowledge of orbital mechanics with practical implementation in **C++, Rust, and Python**.
 
 ---
 
@@ -55,17 +55,20 @@ Developed as my **Master's Thesis (TFM)**, this project implements a safety-crit
 * [![GitLab](https://img.shields.io/badge/View_Project_on-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/miguelcllopez/tfm-sistema-espacial)
 
 **Technical Key Points:**
-* **Hybrid Architecture:** Integrated **Rust** components into a legacy C ecosystem to guarantee memory safety and eliminate buffer overflows without garbage collection overhead.
-* **Hardware Target:** Designed for **LEON3 (SPARC V8)** SoC, implementing Time and Space Partitioning (TSP) to segregate control loops from navigation tasks.
-* **GNC Implementation:** Developed a **Multiplicative Extended Kalman Filter (MEKF)** for sensor fusion (Star Tracker/IMU) and precise attitude estimation.
-* **Validation:** Rigorous testing using **QEMU-LEON3** for instruction-set emulation and Model-in-the-Loop (MIL) validation against orbital dynamics models.
+* **Hybrid Architecture:** Integrated **Rust** components into a legacy C ecosystem to guarantee memory safety.
+* **Hardware Target:** Designed for **LEON3 (SPARC V8)** SoC, implementing Time and Space Partitioning (TSP).
+* **GNC Implementation:** Developed a **Multiplicative Extended Kalman Filter (MEKF)** for attitude estimation.
 
 ### 2. MBSE Application to ATA 21 (ECS) System
 **Systems Engineering** | *Capella, MATLAB/Simulink*
 
-Digital thread implementation for the Air Conditioning System of a C-295 aircraft.
+Digital thread implementation for the Air Conditioning and Pressurization System of a **C-295 aircraft**.
+
+* [![PDF](https://img.shields.io/badge/Read_Full_Report-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/docs/MBSE_ATA21_Report.pdf)
+
+* **Methodology:** Full ARCADIA application (Operational to Physical architecture).
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
-* **Traceability:** Automated requirements management from EASA CS-25 using Python4Capella.
+* **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
 
 ---
 
@@ -75,7 +78,7 @@ Digital thread implementation for the Air Conditioning System of a C-295 aircraf
 **Tecnobit - Grupo Oesía** | *Nov 2025 - Present*
 * Development of critical systems software emphasizing **code robustness**.
 * Adherence to **DO-178C** and **MISRA-C++** standards.
-* CI/CD implementation via Jenkins.
+* CI/CD implementation via Jenkins for automated testing.
 
 ### **System Architecture Engineer**
 **Accenture** | *Apr 2025 - Jul 2025*
@@ -89,6 +92,15 @@ Digital thread implementation for the Air Conditioning System of a C-295 aircraf
 * **Master's in Operation of Space Systems** - Univ. de Sevilla (2025-2026)
 * **Master's in Space Systems** - Universidad Europea (2025-2026)
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
+
+---
+
+### Mathematical Rigor
+My work relies on strong theoretical validation. Example: Lift Equation validation in aerodynamic models:
+
+\[
+L = \frac{1}{2} \rho v^2 S C_L
+\]
 
 ---
 <div align="center">
