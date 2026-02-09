@@ -105,7 +105,6 @@ Beyond the technical field, I am passionate about **languages and cultural immer
 
 * **Languages:**
   * **Spanish:** Native
-  * **Spanish:** Native
   * **English:** [C1 Certified](assets/certs/English-c1.pdf) 
   * **French:** [B2 Certified](assets/certs/French-b2.pdf)
   * **Italian:** [B2 Certified](assets/certs/Italian-b2.pdf)
