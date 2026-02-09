@@ -1,9 +1,10 @@
 title: Miguel López | Aerospace Systems & Software
-description: Aerospace Engineer specializing in MBSE, Critical Flight Software (C++, Rust), and Space Systems.
-url: "https://miguelcllopez.github.io/" # O tu url de github.io
-author:
-  name: Miguel López Cordero
-  email: contacto@miguelcllopez.com
+email: miguelcllopez@gmail.com
+description: >- # El ">-" permite escribir en varias líneas
+  Aerospace Engineer specializing in MBSE, Critical Flight Software (C++, Rust), and Space Systems.
+baseurl: "" 
+url: "https://miguelcllopez.github.io/" 
+author: Miguel López Cordero
 
 # Configuración de Construcción
 markdown: kramdown
