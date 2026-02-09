@@ -19,7 +19,7 @@ title: ""
   <a href="https://gitlab.com/miguelcllopez">
     <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
   </a>
-  <a href="mailto:contacto@miguelcllopez.com">
+  <a href="mailto:miguecllopez@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
@@ -86,7 +86,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * Applied **Model-Based Systems Engineering (MBSE)** principles using the Arcadia methodology and **Capella** tool for the analysis of naval systems.
 * Developed reusable model libraries for Navantia vessels, optimizing standardization in **propulsion** subsystems.
 * Executed a case study on the **S-80 submarine** control system, validating the application of models in defense.
-* Performed 1D modeling and simulation with **Siemens Amesim** for early Verification and Validation (V&V) of requirements.
+* Performed 1D modeling and simulation with **Siemens Amesim (PLM)** for early Verification and Validation (V&V) of requirements.
 * Managed engineering data and lifecycle traceability using **Teamcenter**.
 
 ---
