@@ -22,6 +22,9 @@ title: ""
   <a href="mailto:miguecllopez@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  <br/> <a href="assets/docs/Miguel_Lopez_CV.pdf">
+    <img src="https://img.shields.io/badge/Download_Resume_(PDF)-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV"/>
+  </a>
 </div>
 
 ---
