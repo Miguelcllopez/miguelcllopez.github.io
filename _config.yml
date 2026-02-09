@@ -1,12 +1,9 @@
-title: Miguel López | Ingeniería Aeroespacial
-email: contacto@miguelcllopez.com
-description: >- # Descripción para SEO
-  Estudiante de Ingeniería Aeroespacial. Proyectos de simulación numérica,
-  dinámica de fluidos (CFD) y diseño estructural.
-baseurl: "" # Dejar vacío para usuario.github.io
-url: "https://miguelcllopez.github.io"
-twitter_username: 
-github_username: miguelcllopez
+title: Miguel López | Aerospace Systems & Software
+description: Aerospace Engineer specializing in MBSE, Critical Flight Software (C++, Rust), and Space Systems.
+url: "https://miguelcllopez.github.io/" # O tu url de github.io
+author:
+  name: Miguel López Cordero
+  email: contacto@miguelcllopez.com
 
 # Configuración de Construcción
 markdown: kramdown
