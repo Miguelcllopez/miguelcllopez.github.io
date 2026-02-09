@@ -66,7 +66,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 * [![PDF](https://img.shields.io/badge/Read_Full_Report-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/docs/MBSE_ATA21_Report.pdf)
 
-* **Methodology:** Full ARCADIA (**MBSE**) application (Operational to Physical architecture).
+* **Methodology:** Full ARCADIA application (Operational to Physical architecture).
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
 * **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
 
@@ -75,11 +75,11 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 ### **Systems Software Engineer Intern (C++/Embedded)**
 **Tecnobit - Grupo Oesía** | *Nov 2025 - Present*
-* Developed critical software for aerospace communication and defense systems (encryption), strictly adhering to military standards (**MIL-STD**, **DO-178C**).
-* Programmed in **C++** for embedded systems, covering hardware-software integration, **PCB** handling, and physical validation.
-* Managed software and system requirements traceability using **IBM DOORS** and **Enterprise Architect**.
-* Ensured quality assurance through static analysis (**CppCheck**), bug fixing, and compliance with **MISRA-C++** standards.
-* Utilized **GitLab** for version control, implemented CI/CD pipelines with **Jenkins**, and managed Agile workflows in **Jira**.
+* Develop critical software for aerospace communication and defense systems (encryption), strictly adhering to military standards (**MIL-STD**, **DO-178C**).
+* Program in **C++** for embedded systems, covering hardware-software integration, **PCB** handling, and physical validation.
+* Manage software and system requirements traceability using **IBM DOORS** and **Enterprise Architect**.
+* Ensure quality assurance through static analysis (**CppCheck**), bug fixing, and compliance with **MISRA-C++** standards.
+* Utilize **GitLab** for version control, implement CI/CD pipelines with **Jenkins**, and manage Agile workflows in **Jira**.
 
 ### **System Architecture Engineer**
 **Accenture** | *Apr 2025 - Jul 2025*
@@ -93,14 +93,25 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 ## 🎓 Education
 
-## 🎓 Education
-
 * **Master's in Operation of Space Systems** - Univ. de Sevilla (2025-2026)
 * **Master's in Space Systems** - Universidad Europea (2025-2026)
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
 * **Erasmus+ Exchange Program (Aerospace Engineering)** - University of Pisa (2023-2024)
 
 ---
+## 🌍 Global Mindset & Interests
+
+Beyond the technical field, I am passionate about **languages and cultural immersion**. Having visited **over 50 countries across all continents**, I thrive in dynamic environments and possess strong logistical planning skills.
+
+* **Languages:**
+  * **Spanish:** Native
+  * **Spanish:** Native
+  * **English:** [C1 Certified](assets/certs/English-c1.pdf) 
+  * **French:** [B2 Certified](assets/certs/French-b2.pdf)
+  * **Italian:** [B2 Certified](assets/certs/Italian-b2.pdf)
+  * **Learning:** German & Portuguese
+* **Exploration:** Experienced traveler with a global perspective, essential for seamless integration into international engineering projects.
+
 <div align="center">
   <small>© 2025 Miguel López Cordero</small>
 </div>
