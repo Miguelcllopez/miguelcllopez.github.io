@@ -21,7 +21,8 @@ title: ""
   </a>
 </div>
 
-<br> <br>---
+<br><br>
+---
 
 ## 🚀 About Me
 
@@ -29,7 +30,7 @@ I am an **Aerospace Engineer** specializing in the intersection of **Systems Eng
 
 Currently balancing two master's programs in **Space Operations** and **Space Systems**, I combine theoretical knowledge of orbital mechanics with practical implementation in **C++, Rust, and Python**.
 
-<br> <br> ---
+---
 
 ## 🛠 Tech Stack & Skills
 
@@ -40,7 +41,7 @@ Currently balancing two master's programs in **Space Operations** and **Space Sy
 | **Tools** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=flat&logo=LaTeX&logoColor=white) |
 | **Standards** | **ECSS** (Space), **DO-178C** (Avionics), **MISRA-C++** |
 
-<br> <br>---
+---
 
 ## 🛰️ Featured Projects
 
@@ -67,7 +68,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
 * **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
 
-<br> <br>---
+---
 
 ## 💼 Professional Experience
 
@@ -87,7 +88,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * Performed 1D modeling and simulation with **Siemens Amesim (PLM)** for early Verification and Validation (V&V) of requirements.
 * Managed engineering data and lifecycle traceability using **Teamcenter**.
 
-<br> <br>---
+---
 
 ## 🎓 Education
 
@@ -96,7 +97,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
 * **Erasmus+ Exchange Program (Aerospace Engineering)** - University of Pisa (2023-2024)
 
-<br> <br> ---
+---
 
 ## 🌍 Global Mindset & Interests
 
