@@ -66,7 +66,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 * [![PDF](https://img.shields.io/badge/Read_Full_Report-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/docs/MBSE_ATA21_Report.pdf)
 
-* **Methodology:** Full ARCADIA application (Operational to Physical architecture).
+* **Methodology:** Full ARCADIA (**MBSE**) application (Operational to Physical architecture).
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
 * **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
 
@@ -74,16 +74,23 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 ## 💼 Professional Experience
 
+## 💼 Professional Experience
+
 ### **Systems Software Engineer Intern (C++/Embedded)**
 **Tecnobit - Grupo Oesía** | *Nov 2025 - Present*
-* Development of critical systems software emphasizing **code robustness**.
-* Adherence to **DO-178C** and **MISRA-C++** standards.
-* CI/CD implementation via Jenkins for automated testing.
+* Developed critical software for aerospace communication and defense systems (encryption), strictly adhering to military standards (**MIL-STD**, **DO-178C**).
+* Programmed in **C++** for embedded systems, covering hardware-software integration, **PCB** handling, and physical validation.
+* Managed software and system requirements traceability using **IBM DOORS** and **Enterprise Architect**.
+* Ensured quality assurance through static analysis (**CppCheck**), bug fixing, and compliance with **MISRA-C++** standards.
+* Utilized **GitLab** for version control, implemented CI/CD pipelines with **Jenkins**, and managed Agile workflows in **Jira**.
 
 ### **System Architecture Engineer**
 **Accenture** | *Apr 2025 - Jul 2025*
-* Applied **Arcadia/Capella** for Naval Systems (S-80 Submarine scope).
-* Developed reusable model libraries and performed V&V with **Siemens Amesim**.
+* Applied **Model-Based Systems Engineering (MBSE)** principles using the Arcadia methodology and **Capella** tool for the analysis of naval systems.
+* Developed reusable model libraries for Navantia vessels, optimizing standardization in **propulsion** subsystems.
+* Executed a case study on the **S-80 submarine** control system, validating the application of models in defense.
+* Performed 1D modeling and simulation with **Siemens Amesim** for early Verification and Validation (V&V) of requirements.
+* Managed engineering data and lifecycle traceability using **Teamcenter**.
 
 ---
 
@@ -94,15 +101,6 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
 
 ---
-
-### Mathematical Rigor
-My work relies on strong theoretical validation. Example: Lift Equation validation in aerodynamic models:
-
-\[
-L = \frac{1}{2} \rho v^2 S C_L
-\]
-
----
 <div align="center">
-  <small>© 2025 Miguel López Cordero - Hosted on GitHub Pages</small>
+  <small>© 2025 Miguel López Cordero</small>
 </div>
