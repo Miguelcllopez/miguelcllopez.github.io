@@ -71,9 +71,6 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
 
 ---
-
-## 💼 Professional Experience
-
 ## 💼 Professional Experience
 
 ### **Systems Software Engineer Intern (C++/Embedded)**
@@ -96,9 +93,12 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 
 ## 🎓 Education
 
+## 🎓 Education
+
 * **Master's in Operation of Space Systems** - Univ. de Sevilla (2025-2026)
 * **Master's in Space Systems** - Universidad Europea (2025-2026)
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
+* **Erasmus+ Exchange Program (Aerospace Engineering)** - University of Pisa (2023-2024)
 
 ---
 <div align="center">
