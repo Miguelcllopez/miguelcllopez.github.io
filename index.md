@@ -45,17 +45,17 @@ Currently balancing two master's programs in **Space Operations** and **Space Sy
 
 ## 🛰️ Featured Projects
 
-### 1. Critical Flight Software for Agile Microsatellite (Master's Thesis)
-**GitLab Repository** | *Rust, C, LEON3, GNC*
+### 1. Flight Algorithm on RISC-V with Hardware-in-the-Loop (Master's Thesis)
+**GitLab Repository** | *RISC-V, FPGA, C, GNC*
 
-Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical **Flight Software (FSW)** architecture compliant with **ECSS-E-ST-40C**. It addresses high-agility slew maneuvers for Earth Observation missions.
+Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical flight algorithm on an open-source **RISC-V** soft-core processor, validated through **Hardware-in-the-Loop** testing on real FPGA hardware.
 
 * [![GitLab](https://img.shields.io/badge/View_Project_on-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/miguelcllopez/tfm-sistema-espacial)
 
 **Technical Key Points:**
-* **Hybrid Architecture:** Integrated **Rust** components into a legacy C ecosystem to guarantee memory safety.
-* **Hardware Target:** Designed for **LEON3 (SPARC V8)** SoC, implementing Time and Space Partitioning (TSP).
-* **GNC Implementation:** Developed a **Multiplicative Extended Kalman Filter (MEKF)** for attitude estimation.
+* **Hardware Target:** Flight algorithm deployed on **neorv32 (RISC-V)** soft-core processor running on a **Xilinx Arty A7 FPGA**.
+* **Verification:** **Hardware-in-the-Loop (HIL)** testing to validate algorithm behaviour against the physical processor.
+* **GNC:** Attitude and orbit control algorithm for Earth Observation mission requirements.
 
 ### 2. MBSE Application to ATA 21 (ECS) System
 **Systems Engineering** | *Capella, MATLAB/Simulink*
@@ -75,7 +75,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 ### **Systems Software Engineer Intern (C++/Embedded)**
 **Tecnobit - Grupo Oesía** | *Nov 2025 - Present*
 * Develop critical software for aerospace communication and defense systems (encryption), strictly adhering to military standards (**MIL-STD**, **DO-178C**).
-* Program in **C++** for embedded systems, covering hardware-software integration, **PCB** handling, and physical validation.
+* Program in **C++** for embedded systems, covering hardware-software integration and physical validation.
 * Manage software and system requirements traceability using **IBM DOORS** and **Enterprise Architect**.
 * Ensure quality assurance through static analysis (**CppCheck**), bug fixing, and compliance with **MISRA-C++** standards.
 * Utilize **GitLab** for version control, implement CI/CD pipelines with **Jenkins**, and manage Agile workflows in **Jira**.
@@ -83,7 +83,7 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 ### **System Architecture Engineer**
 **Accenture** | *Apr 2025 - Jul 2025*
 * Applied **Model-Based Systems Engineering (MBSE)** principles using the Arcadia methodology and **Capella** tool for the analysis of naval systems.
-* Developed reusable model libraries for Navantia vessels, optimizing standardization in **propulsion** subsystems.
+* Developed reusable model libraries for Navantia's naval vessels, enhancing design standardization across systems.
 * Executed a case study on the **S-80 submarine** control system, validating the application of models in defense.
 * Performed 1D modeling and simulation with **Siemens Amesim (PLM)** for early Verification and Validation (V&V) of requirements.
 * Managed engineering data and lifecycle traceability using **Teamcenter**.
@@ -112,5 +112,5 @@ Beyond the technical field, I am passionate about **languages and cultural immer
 * **Exploration:** Experienced traveler with a global perspective, essential for seamless integration into international engineering projects.
 
 <div align="center">
-  <small>© 2025 Miguel López Cordero</small>
+  <small>© 2026 Miguel López Cordero</small>
 </div>
