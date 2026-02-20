@@ -38,25 +38,36 @@ MCP is Anthropic's open protocol for connecting AI models to external data sourc
 
 ---
 
-## 2. LLM-driven Requirements Engineering for MBSE
-**Master's Thesis Component** | *Python · LLM APIs · ReqIF · Capella · Arcadia*
+## 2. AI-driven MBSE Documentation & Requirements Engineering
+**Master's Thesis Research** | *Python · LLM APIs · MCP · ReqIF · Capella · Enterprise Architect · SysML*
 
 [![Capella](https://img.shields.io/badge/Capella-MBSE-purple?style=flat)]()
+[![SysML](https://img.shields.io/badge/SysML-EA-blue?style=flat)]()
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-blueviolet?style=flat)]()
 [![ReqIF](https://img.shields.io/badge/ReqIF-Requirements-darkblue?style=flat)]()
 [![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)](https://github.com/miguelcllopez)
 
-Designed and implemented a tool that uses **Large Language Models** to automatically generate **ReqIF-compliant requirements files** from natural language inputs, ready for direct import into **Capella MBSE models**.
+Research and implementation work exploring how **Large Language Models** can be integrated directly into **MBSE workflows** to automate two historically manual and error-prone tasks: requirements authoring and SysML documentation generation.
 
-The tool bridges the gap between informal requirement descriptions and structured systems engineering artefacts, reducing manual authoring effort and minimising traceability inconsistencies across the ARCADIA methodology layers.
+The work spans two complementary lines of investigation:
 
-**Key aspects:**
-- LLM parses natural language specs and produces structured **ReqIF XML** output
-- Generated files import directly into **Capella** without manual reformatting
-- Enforces requirement attribute consistency (ID, type, rationale, verification method)
-- Reduces requirements authoring time and improves traceability from system-level to software-level
-- Validated on real aerospace system models (ATA 21 Environmental Control System)
+**Line 1 — LLM-to-Capella Requirements Pipeline:**
+Implemented a tool that takes natural language requirement descriptions and automatically produces **ReqIF-compliant XML files** ready for direct import into **Capella** models. The tool enforces ARCADIA-consistent attribute structure (ID, type, rationale, verification method) and eliminates the translation overhead between informal specs and formal systems engineering artefacts.
 
-> *Directly applicable to AI-assisted requirements traceability and automated design review workflows in science operations environments.*
+- LLM parses natural language and outputs structured **ReqIF XML**
+- Direct Capella import — no manual reformatting
+- Traceability enforced from operational to physical architecture layers
+- Validated on real aerospace models (ATA 21 Environmental Control System)
+
+**Line 2 — MCP Server for Enterprise Architect SysML Auto-documentation:**
+Investigating the use of **Model Context Protocol (MCP)** to bridge LLMs with **Enterprise Architect**, enabling AI-assisted automatic generation of **SysML documentation** directly from live EA models. An MCP server exposes EA model data — blocks, ports, interfaces, constraints, relationships — as structured tools callable by an LLM, which then generates consistent, standards-aligned documentation artefacts without manual authoring.
+
+- MCP server interfaces with EA's automation API to query model elements at runtime
+- LLM generates SysML-compliant documentation from live model context
+- Reduces documentation lag and inconsistency between model state and written specs
+- Applicable to any MBSE project using EA as the primary modelling environment
+
+> *Both lines directly address core challenges of the ESA Science Operations domain: AI-assisted requirements traceability, automated design review, and NLP applications to engineering standards and guidelines.*
 
 ---
 
