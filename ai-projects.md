@@ -14,21 +14,27 @@ permalink: /ai-projects/
 
 ---
 
-## 1. Autonomous AI Flight Search Agent
-**Personal Project** | *Python · Duffel API · Google Flights API · LLM Agent*
+## 1. Flights MCP Server — AI-powered Flight Search via Model Context Protocol
+**Personal Project** | *Python · MCP SDK · Duffel API · Claude Desktop · Docker · Smithery*
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)](https://github.com/miguelcllopez)
-[![LLM](https://img.shields.io/badge/LLM-Agent-blueviolet?style=flat)]()
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-blueviolet?style=flat)]()
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)]()
+[![Smithery](https://img.shields.io/badge/Deployed-Smithery-orange?style=flat)]()
 
-Developed an **autonomous AI agent** that automates end-to-end flight search and selection. The system integrates the **Duffel** and **Google Flights** APIs to retrieve real-time flight offers, then delegates decision-making to an LLM, which evaluates and ranks results against a user-defined preference profile (price, layovers, departure time, airline).
+Designed and implemented a full **MCP (Model Context Protocol) server** that exposes real-time flight search capabilities as native tools for LLM clients. The server integrates the **Duffel API** to query live flight inventory and is registered on **Smithery**, the MCP server registry, making it installable in Claude Desktop with a single command.
+
+MCP is Anthropic's open protocol for connecting AI models to external data sources and tools. This project demonstrates end-to-end implementation of the protocol: from tool schema definition and server lifecycle management to transport layer configuration (`stdio`) and Docker containerisation.
 
 **Key aspects:**
-- Agentic pipeline with **tool-use** and structured output parsing
-- LLM acts as a reasoning layer over live API data — no hardcoded rules
-- Preference profile system allows personalised, context-aware flight selection
-- Demonstrates end-to-end automation of a multi-step search and decision workflow
+- Full **MCP server** implementation in Python using the official MCP SDK
+- Exposes three tools: `search_flights`, `get_offer_details`, `search_multi_city`
+- Supports one-way, round-trip, and complex multi-city itineraries with flexible parameters
+- LLM acts as a conversational reasoning layer — maintains context across searches, compares options, and selects based on user preferences without hardcoded rules
+- Containerised with **Docker** and deployed on **Smithery** for one-command installation
+- Includes MCP Inspector integration for real-time request/response monitoring and debugging
 
-> *Motivation: explore practical LLM agent design for real-world API orchestration and automated decision-making.*
+> *Deep-dive into the Model Context Protocol architecture: tool registration, schema validation, async transport, and LLM-driven decision automation over live APIs.*
 
 ---
 
