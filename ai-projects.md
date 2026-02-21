@@ -67,7 +67,7 @@ Investigating the use of **Model Context Protocol (MCP)** to bridge LLMs with **
 - Reduces documentation lag and inconsistency between model state and written specs
 - Applicable to any MBSE project using EA as the primary modelling environment
 
-> *Both lines directly address core challenges of the ESA Science Operations domain: AI-assisted requirements traceability, automated design review, and NLP applications to engineering standards and guidelines.*
+> *Both lines explore how AI can reduce manual overhead in systems engineering workflows — from requirements authoring to model documentation — making MBSE processes faster, more consistent, and less error-prone.*
 
 ---
 
