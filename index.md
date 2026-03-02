@@ -63,12 +63,9 @@ Developed as my **Master's Thesis (TFM)**, this project implements a safety-crit
 ---
 
 ### 2. AI & Personal Projects *(Agents · LLMs · Edge AI)*
-**Python · LLM APIs · Model Context Protocol · ReqIF · Capella · RISC-V**
+**Python · LLM APIs · ReqIF · Capella · RISC-V · Duffel API**
 
-Applied AI initiatives focusing on automation and logistics:
-* **Flights MCP Server [In Progress]:** An autonomous flight search and booking agent using the **Duffel API** and the Model Context Protocol.
-* **Edge AI Automation [In Progress]:** Task automation and AI deployment on **RISC-V (SG2002/Lichee Pi)** using **OpenClaw**.
-* **MBSE Automation:** LLM-based tool for auto-generating **ReqIF** requirements into Capella models.
+Three applied AI initiatives: an autonomous flight search agent using the **Model Context Protocol**, an LLM tool for auto-generating **ReqIF** requirements files into Capella MBSE models, and an edge-AI deployment on a **RISC-V SoC (SG2002/Lichee Pi)** using **OpenClaw**.
 
 * [![View Projects](https://img.shields.io/badge/View_AI_Projects-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://miguelcllopez.github.io/ai-projects/)
 
