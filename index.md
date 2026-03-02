@@ -62,7 +62,19 @@ Developed as my **Master's Thesis (TFM)**, this project implements a safety-crit
 
 ---
 
-### 2. MBSE Application to ATA 21 (ECS) System
+### 2. AI & Personal Projects *(Agents · LLMs · Edge AI)*
+**Python · LLM APIs · Model Context Protocol · ReqIF · Capella · RISC-V**
+
+Applied AI initiatives focusing on automation and logistics:
+* **Flights MCP Server [In Progress]:** An autonomous flight search and booking agent using the **Duffel API** and the Model Context Protocol.
+* **Edge AI Automation [In Progress]:** Task automation and AI deployment on **RISC-V (SG2002/Lichee Pi)** using **OpenClaw**.
+* **MBSE Automation:** LLM-based tool for auto-generating **ReqIF** requirements into Capella models.
+
+* [![View Projects](https://img.shields.io/badge/View_AI_Projects-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://miguelcllopez.github.io/ai-projects/)
+
+---
+
+### 3. MBSE Application to ATA 21 (ECS) System
 **Systems Engineering** | *Capella, MATLAB/Simulink*
 
 Digital thread implementation for the Air Conditioning and Pressurization System of a **C-295 aircraft**.
@@ -72,24 +84,6 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **Methodology:** Full ARCADIA application (Operational to Physical architecture).
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
 * **Traceability:** Automated requirements management from EASA CS-25 using **Python4Capella**.
-
----
-
-### 3. Edge AI Task Automation on RISC-V SoC [In Progress]
-**Research & Development** | *OpenClaw · SG2002 · Lichee Pi · RISC-V · Python*
-
-Autonomous task automation and edge-AI deployment on a **RISC-V SoC (SG2002/Lichee Pi)** using **OpenClaw**. This project explores the feasibility of running lightweight AI agents for industrial and aerospace automation at the edge.
-
-* [![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)](https://github.com/miguelcllopez/edge-ai-riscv)
-
----
-
-### 4. Flights MCP Server [In Progress]
-**AI Agents & Infrastructure** | *Python · Model Context Protocol · Duffel API · Docker*
-
-A specialized **Model Context Protocol (MCP)** server that enables AI agents to search, book, and manage flights autonomously. Built with Python and integrated with the **Duffel API**, providing a standardized interface for complex travel logistics.
-
-* [![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)](https://github.com/miguelcllopez/flights-mcp)
 
 ---
 
