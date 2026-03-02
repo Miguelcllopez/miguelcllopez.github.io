@@ -50,7 +50,7 @@ Currently balancing two master's programs in **Space Operations** and **Space Sy
 ### 1. Microsatellite AOCS Flight Software
 **GitLab Repository** | *ARM Cortex-A9, FreeRTOS, C, SysML v2*
 
-Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical Attitude and Orbit Control System (AOCS) for a microsatélite. It features a full migration from initial RISC-V prototypes to a production-ready ARM-based environment.
+Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical Attitude and Orbit Control System (AOCS) for a microsatellite. It features a full migration from initial RISC-V prototypes to a production-ready ARM-based environment.
 
 * [![GitLab](https://img.shields.io/badge/View_Project_on-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/miguelito-space/Miguelito-Microsatellite-AOCS-SW)
 
