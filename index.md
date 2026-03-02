@@ -56,16 +56,16 @@ Developed as my **Master's Thesis (TFM)**, this project implements a safety-crit
 
 **Technical Key Points:**
 * **Real-Time Architecture:** GNC algorithms deployed on **ARM Cortex-A9 (Zynq-7000)** using **FreeRTOS** to ensure deterministic execution and multi-tasking.
-* **MBSE & SysML v2:** "Single source of truth" design using **SysML v2**, maintaining 1:1 traceability between requirements and embedded C implementation.
+* **MBSE & SysML v2:** "Single source of truth" design using **SysML v2**, maintaining traceability between requirements and embedded C implementation.
 * **Control Algorithms:** Implementation of a **B-Dot** law for detumbling and **EKF** for attitude estimation, optimized for low-power microsatellite platforms.
 * **V&V Workflow:** Comprehensive verification through **Software-in-the-Loop (SIL)** and **Hardware-in-the-Loop (HIL)**, validating control performance against physical hardware constraints.
 
 ---
 
 ### 2. AI & Personal Projects *(Agents · LLMs · Edge AI)*
-**Python · LLM APIs · ReqIF · Capella · RISC-V · Duffel API**
+**Python · LLM APIs · RISC-V · Duffel API**
 
-Three applied AI initiatives: an autonomous flight search agent using the **Model Context Protocol**, an LLM tool for auto-generating **ReqIF** requirements files into Capella MBSE models, and an edge-AI deployment on a **RISC-V SoC (SG2002/Lichee Pi)** using **OpenClaw**.
+Two applied AI initiatives: an autonomous flight search agent using the **Model Context Protocol** and an edge-AI deployment on a **RISC-V SoC (SG2002/Lichee Pi)** using **OpenClaw**.
 
 * [![View Projects](https://img.shields.io/badge/View_AI_Projects-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://miguelcllopez.github.io/ai-projects/)
 
