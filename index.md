@@ -47,17 +47,18 @@ Currently balancing two master's programs in **Space Operations** and **Space Sy
 
 ## 🛰️ Featured Projects
 
-### 1. Miguelito Microsatellite AOCS SW
-**GitLab Repository** | *RISC-V, FPGA, C, GNC*
+### 1. Microsatellite AOCS Flight Software
+**GitLab Repository** | *ARM Cortex-A9, FreeRTOS, C, SysML v2*
 
-Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical flight algorithm on an open-source **RISC-V** soft-core processor, validated through **Hardware-in-the-Loop** testing on real FPGA hardware.
+Developed as my **Master's Thesis (TFM)**, this project implements a safety-critical Attitude and Orbit Control System (AOCS) for a microsatélite. It features a full migration from initial RISC-V prototypes to a production-ready ARM-based environment.
 
 * [![GitLab](https://img.shields.io/badge/View_Project_on-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/miguelito-space/Miguelito-Microsatellite-AOCS-SW)
 
 **Technical Key Points:**
-* **Hardware Target:** Flight algorithm deployed on **neorv32 (RISC-V)** soft-core processor running on a **Xilinx Arty A7 FPGA**.
-* **Verification:** **Hardware-in-the-Loop (HIL)** testing to validate algorithm behaviour against the physical processor.
-* **GNC:** Attitude and orbit control algorithm for Earth Observation mission requirements.
+* **Real-Time Architecture:** GNC algorithms deployed on **ARM Cortex-A9 (Zynq-7000)** using **FreeRTOS** to ensure deterministic execution and multi-tasking.
+* **MBSE & SysML v2:** "Single source of truth" design using **SysML v2**, maintaining 1:1 traceability between requirements and embedded C implementation.
+* **Control Algorithms:** Implementation of a **B-Dot** law for detumbling and **EKF** for attitude estimation, optimized for low-power microsatellite platforms.
+* **V&V Workflow:** Comprehensive verification through **Software-in-the-Loop (SIL)** and **Hardware-in-the-Loop (HIL)**, validating control performance against physical hardware constraints.
 
 ---
 
