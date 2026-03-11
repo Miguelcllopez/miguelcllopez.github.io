@@ -77,6 +77,7 @@ Two applied AI initiatives: an autonomous flight search agent using the **Model 
 Digital thread implementation for the Air Conditioning and Pressurization System of a **C-295 aircraft**.
 
 * [![PDF](https://img.shields.io/badge/Read_Full_Report-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/docs/MBSE_ATA21_Report.pdf)
+* [![Presentation](https://img.shields.io/badge/View_Presentation-PDF-1a73e8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/docs/MBSE_ATA21_Presentation.pdf)
 
 * **Methodology:** Full ARCADIA application (Operational to Physical architecture).
 * **Simulation:** Developed **Fault Tree Analysis (FTA)** and 1D physical models in Simulink for V&V.
