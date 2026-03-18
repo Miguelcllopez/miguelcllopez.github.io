@@ -65,16 +65,7 @@ Developed as my **Master's Thesis (TFM)**, this project implements a safety-crit
 
 ---
 
-### 2. AI & Personal Projects *(Agents · LLMs · Edge AI)*
-**Python · LLM APIs · RISC-V · Duffel API**
-
-Two applied AI initiatives: an autonomous flight search agent using the **Model Context Protocol** and an edge-AI deployment on a **RISC-V SoC (SG2002/Lichee Pi)** using **OpenClaw**.
-
-* [![View Projects](https://img.shields.io/badge/View_AI_Projects-4A90D9?style=for-the-badge&logo=github&logoColor=white)](https://miguelcllopez.github.io/ai-projects/)
-
----
-
-### 3. MBSE Application to ATA 21 (ECS) System
+### 2. MBSE Application to ATA 21 (ECS) System
 **Systems Engineering** | *Capella, MATLAB/Simulink*
 
 Digital thread implementation for the Air Conditioning and Pressurization System of a **C-295 aircraft**.
