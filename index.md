@@ -16,6 +16,9 @@ title: ""
   <a href="mailto:miguecllopez@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  <a href="https://www.incose.org/">
+    <img src="https://img.shields.io/badge/INCOSE-Member-005EB8?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRleHQgeD0iNCIgeT0iMTgiIGZvbnQtc2l6ZT0iMTYiIGZpbGw9IndoaXRlIj7wn4yQPC90ZXh0Pjwvc3ZnPg==&logoColor=white" alt="INCOSE Member"/>
+  </a>
   <br/> <a href="/assets/docs/CV_MIGUEL_LOPEZ.pdf">
     <img src="https://img.shields.io/badge/Download_Resume_(PDF)-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download CV"/>
   </a>
@@ -111,6 +114,12 @@ Digital thread implementation for the Air Conditioning and Pressurization System
 * **Master's in Space Systems** - Universidad Europea (2025-2026)
 * **B.Sc. Aerospace Engineering** - Univ. de Sevilla (2021-2025)
 * **Erasmus+ Exchange Program (Aerospace Engineering)** - University of Pisa (2023-2024)
+
+---
+
+## 🏛️ Professional Memberships
+
+* **[INCOSE](https://www.incose.org/)** — International Council on Systems Engineering *(Member)*
 
 ---
 
